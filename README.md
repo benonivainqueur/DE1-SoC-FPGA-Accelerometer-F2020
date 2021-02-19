@@ -8,7 +8,7 @@ Integrating Hardware, and Software components with a ADXL345 Accelerometer
 * Using adders, multiplexers, and verilog, measurements from the G-sensor will be processed by the the FPGA and converted into the inclination angle of the board 
 * The corresponding angle will bedisplayed on a 7-segment display and also returned to the HPS for synchronus data retrieval.
 
-##  Skills Usedhttps://nuvainqueur.wpengine.com/wp-content/uploads/2021/02/2160-video-1-1.gif
+##  Skills Used
 * Registers 
 * I2C Communication Protocol 
 * C++ Object Oriented Design 
