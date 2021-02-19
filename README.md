@@ -8,12 +8,11 @@ Integrating Hardware, and Software components with a ADXL345 Accelerometer
 * Using adders, multiplexers, and verilog, measurements from the G-sensor will be processed by the the FPGA and converted into the inclination angle of the board 
 * The corresponding angle will bedisplayed on a 7-segment display and also returned to the HPS for synchronus data retrieval.
 
-##  Skills Used
+##  Skills Usedhttps://nuvainqueur.wpengine.com/wp-content/uploads/2021/02/2160-video-1-1.gif
 * Registers 
 * I2C Communication Protocol 
 * C++ Object Oriented Design 
-* Makefiles
-* Vi, GNC 
+* Makefiles, Vi, GNC 
 * ADXL345 
 * Dynamic Memory Allocation 
 * HPS - FPGA Bridge
@@ -28,14 +27,7 @@ Integrating Hardware, and Software components with a ADXL345 Accelerometer
 
 there are several files that are used thorughout this program. De!SoCFpga.h represents the header file that interacts with the DE1SoC. These define the constants and bit registers. These also apply to the ADXL345, D1SoChps, Gsensor, and PIO Control. These files, as named all work in tandem to ultimately create the following image. 
 
-
-<p align="center"><img src="https://nuvainqueur.wpengine.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-08-at-6.51.55-PM-1.png" align=middle width=900pt height=750pt/></p>
-
-<p align="center"><img src="https://nuvainqueur.wpengine.com/wp-content/uploads/2021/02/2160-video-1.gif" align=middle width=900pt height=750pt/></p>
-
-![2bb5d450319f0a721c07d202cc35d324]()
-
-![2nd GIF](https://nuvainqueur.wpengine.com/wp-content/uploads/2021/02/2160-video-1.gif)
+<p align="center"><img src="https://nuvainqueur.wpengine.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-08-at-6.51.55-PM-1.png" align=middle width=700pt height=550pt/></p>
 
 ## Useful information
 
